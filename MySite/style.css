@@ -1,3 +1,55 @@
-h1{
-    color: blue;
-}
+:root {
+    --cor1: #0367A6;
+    --cor2: #024873;
+    --cor3: #012840;
+    --cor4: #41D2F2;
+    --cor5: #0D0D0D;
+  }
+  
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor2);
+  }
+
+  header{
+    margin-bottom: 20px;
+  }
+  
+  main {
+    flex: 1;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 0px 400px 0px 400px ;
+    align-self: center;
+    border-radius: 15px;
+  }
+
+  div#Title{
+    background-color: var(--cor3);
+    padding: 50px;
+    align-self: start;
+    margin: 0px -400px 0px -400px;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  div#Title>h1{
+    color: var(--cor4);
+  }
+  
+  div#Title>h3{
+    color: whitesmoke;
+  }
+
+
+  
+  footer {
+    flex-shrink: 0;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+  }

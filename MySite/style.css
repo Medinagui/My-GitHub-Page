@@ -16,40 +16,70 @@ html, body {
     background-color: var(--cor2);
   }
 
-  header{
-    margin-bottom: 20px;
-  }
-  
-  main {
-    flex: 1;
-    background-color: whitesmoke;
-    margin: auto;
-    padding: 0px 400px 0px 400px ;
-    align-self: center;
-    border-radius: 15px;
-  }
+header{
+  margin: auto;
+}
 
-  div#Title{
+nav {
     background-color: var(--cor3);
-    padding: 50px;
-    align-self: start;
-    margin: 0px -400px 0px -400px;
-    border-radius: 15px 15px 0px 0px;
-  }
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin: auto;
+    margin: -10px -30px 0px -30px;
+}
 
-  div#Title>h1{
-    color: var(--cor4);
-  }
+nav>a {
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+
+nav>a:hover {
+  background-color: var(--cor3);
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+main {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 10px 30px 10px 30px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.315);
+}
+
+main > div >p {
+  font-size: 1.2em;
+}
+
+div#Title{
+  background-color: var(--cor3);
+  padding: 50px;
+  align-self: start;
+  margin: 0px -30px -10px -30px;
   
-  div#Title>h3{
-    color: whitesmoke;
-  }
+}
+
+div#Title>h1{
+  color: var(--cor4);
+}
+
+div#Title>h3{
+  color: whitesmoke;
+}
 
 
-  
-  footer {
-    flex-shrink: 0;
-    background-color: whitesmoke;
-    text-align: center;
-    margin-top: 20px;
-  }
+
+footer {
+  flex-shrink: 0;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 20px;
+}
